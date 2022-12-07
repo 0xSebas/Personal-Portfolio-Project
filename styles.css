@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+nav {
+  text-align: right;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #ef233c;
+}
+
+.nav-link {
+  padding: 10px;
+  margin: 10px 10px 0px 10px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  font-size: 20px;
+  background-color: #e1e6e1;
+  color: #001514;
+  border-radius: 5px;
+}
+
+.nav-link:last-child {
+  margin-right: 50px;
+}
+
+#welcome-section {
+  padding-top: 50vh;
+  padding-bottom: 50vh;
+  background-color: #e1e6e1;
+  margin: 0;
+}
+
+.greetings {
+ color: #001514;
+ font-size: 35px; 
+ margin-bottom: 20px;
+}
+
+.greetings-description {
+  color: #6c8ead;
+  font-style: italic;
+  font-size: 20px; 
+}
+
+#projects {
+  padding: 100px 0px;
+  background-color: #14213d;
+  text-align: center;
+  display: block;
+}
+.projects-look div {
+  width: 400px;
+  padding: 30px;
+}
+
+.project-image {
+  height: 350px;
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+}
+
+.projects-look {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.projects-title {
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  border-bottom: 1px solid;
+  margin-bottom: 5vh;
+  max-width: 700px;
+  margin: 0 auto 6rem auto;
+}
+
+.project-description {
+  color: white;
+  padding: 30px 0px;
+  background-color: #023e8a;
+  width: 100%;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.project-description:hover {
+  color: orange;
+}
+
+#projects a {
+  text-decoration: none;
+}
+
+#projects a:hover {
+  font-size: 20px;
+  
+}
+
+@media (max-width: 900px) {
+  .projects-look {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #001514;
+  font-size: 35px; 
+  margin-bottom: 20px;
+  padding: 20px;
+  animation: ; 
+}
+
+i {
+  padding: 5px;
+}
+
+@keyframes hover-socials {
+  
+}
